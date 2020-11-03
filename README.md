@@ -1,18 +1,18 @@
-# extract_from_image
+# scrape_website
 
-Python functions to extract information from images.
+Python functions to scrape information from website.
 
 ## Requirements
-- Develop extractors to retrieve each of the following information from an image:
-  - Faces
-  - Text (OCR)
-  - Nudity
-  - Licence plate number
-  - Image Hash
-  - Metadata / exif data
-  - Classification
-  - Image quality
-  - Facial features
+- Develop scrapers to retrieve each of the following information from a website:
+  - html content of main page
+  - list of pages from robots.txt file
+  - list of pages from sitemap.xml
+  - webserver
+  - ip address
+  - location (geography)
+  - technology
+  - 
+
 
 - Output result in a list of json-ld schema.org records
   - email: https://schema.org/ContactPoint 
