@@ -9,8 +9,10 @@ Python functions to extract information from images.
   - Nudity
   - Licence plate number
   - Image Hash
-  - Metadata
+  - Metadata / exif data
   - Classification
+  - Image quality
+  - Facial features
 
 - Output result in a list of json-ld schema.org records
   - email: https://schema.org/ContactPoint 
