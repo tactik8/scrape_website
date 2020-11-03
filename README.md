@@ -1,18 +1,17 @@
-# extract_from_html
+# extract_from_image
 
-Python functions to extract unstructured information from html.
+Python functions to extract information from images.
 
 ## Requirements
-- Develop extractors to retrieve each of the following information from a html string:
-  - Emails
-  - URLs
-  - Phone numbers
-  - Cities, states / provinces, countries
-  - Job titles
-  - Quantities
-- Normalize the data found
-  - Phone number: E.164
-  - Geography: ISO 
+- Develop extractors to retrieve each of the following information from an image:
+  - Faces
+  - Text (OCR)
+  - Nudity
+  - Licence plate number
+  - Image Hash
+  - Metadata
+  - Classification
+
 - Output result in a list of json-ld schema.org records
   - email: https://schema.org/ContactPoint 
   - phone: https://schema.org/ContactPoint
@@ -26,8 +25,7 @@ Python functions to extract unstructured information from html.
   
 
 ## input:
-string: the text to extract information from
-or list of strings
+string: the url fo the image to analyze or list of urls
 
 ## output:
 json list of structured records
