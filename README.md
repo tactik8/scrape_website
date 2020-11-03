@@ -27,7 +27,7 @@ Python functions to scrape information from website.
   
 
 ## input:
-string: the url fo the image to analyze or list of urls
+string: the url of the webpage to scrape or list of urls
 
 ## output:
 json list of structured records
@@ -57,7 +57,6 @@ Phone numbers | phone_extractor_ioc_finder | ioc-finder
 City, state, country | geo_extractor_geograpy3 | geograpy3
 Job title | title_extractor |
 Quantities | qty_extractor_quantulum3 | quantulum3
-
 
 
 
